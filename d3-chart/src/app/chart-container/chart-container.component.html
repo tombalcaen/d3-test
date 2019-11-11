@@ -1,1 +1,24 @@
-<p>chart-container works!</p>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-10">
+      <div class="card" style="width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">RISKS</h5>
+          <app-chart 
+            [data]="data" 
+            [chartColor]="chartColor" 
+            [chartLegend]="chartLegend" 
+            [chartDimensions]="chartDimensions">
+            </app-chart>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col-10">
+      <div class="card" style="width: 100%">
+      <div class="card-body">
+        <h5 class="card-title">chart 2</h5>
+        <app-chart-two></app-chart-two>
+      </div>
+    </div> -->
+  </div>
+</div>
